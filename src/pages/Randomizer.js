@@ -35,7 +35,7 @@ const generatePoorName = () => {
   setTextValue(name);
 }
 const generateOwner = () => {
-  document.getElementById("tavern_text").style.fontSize = "35px"; 
+  document.getElementById("tavern_text").style.fontSize = "42px"; 
     var bodyHeight = ["short", "very short", "very tall", "tall", "an average height"];
     var bodyType = ["portly", "lean", "bulky", "chubby", "scrawny", "an average weight"];
     var personality = ["calm", "seductive", "loud", "quiet", "meek", "angry", "rude", "solemn", "dorky", "bossy", "smug", "stubborn", "serious", "jokey", "cheery", "kind", "bored", "apathetic", "lively", "snobby", "humble", "friendly"];
@@ -45,7 +45,7 @@ const generateOwner = () => {
     let randomnumber3 = Math.floor(Math.random() * (personality.length));
     let randomnumber4 = Math.floor(Math.random() * (quirks.length));
 
-    name = 'The owner is ' + bodyHeight[randomnumber1] + ' and ' + bodyType[randomnumber2] +  '.\n\nThey have a ' + personality[randomnumber3] + ' demeanor and' + quirks[randomnumber4];
+    name = '\nThe owner is ' + bodyHeight[randomnumber1] + ' and ' + bodyType[randomnumber2] +  '.\nThey have a ' + personality[randomnumber3] + ' demeanor and\n' + quirks[randomnumber4];
   setTextValue(name);
 }
 function surprise() {

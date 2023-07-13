@@ -58,8 +58,10 @@
     justify-content: center;
 }
 #tavern_text {
+    font-family:'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     white-space: pre-wrap;
     height: 100%;
+    width: 75%;
     font-size: 75px;   
     position: absolute;
     color: goldenrod;
