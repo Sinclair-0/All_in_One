@@ -1,0 +1,128 @@
+.rand {
+    background-image: url("./components/ChestClosed.png");
+    display: inline;
+    width: 92px;
+    max-width: 92px;
+    height: 50px;
+    max-height: 50px;
+    margin: 5px;
+    position: relative;
+}
+.popup {
+    width: 55%;
+    height: 45%;
+    z-index: 5;
+    background-color: bisque;
+    border: 5px black double;
+    text-align: center;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.test {  
+    position: relative;
+    text-align: center;
+    width: 92px;
+    max-width: 92px;
+    height: 50px;
+    max-height: 50px;
+}
+.rand:hover {
+    background-color: darkslategray;
+}
+.bottom-left {
+    font-size: 20;
+    font-weight: bold;
+    height: 100%;
+    width: 100%;
+    top: 10%;
+    position: absolute;
+    color: goldenrod;
+    text-align: center;
+    z-index: 2;
+  }
+.grid {
+    display: flex;
+    flex-direction: row;
+}
+
+.container {
+    margin-top: auto;
+    margin-bottom: auto;
+    display:flex;
+    height: 95vh;
+    flex-direction:column;
+    background-color:rgb(218, 212, 211);
+    align-items: center;
+    justify-content: center;
+}
+#tavern_text {
+    white-space: pre-wrap;
+    height: 100%;
+    font-size: 75px;   
+    position: absolute;
+    color: goldenrod;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    z-index: 2;
+}
+.tavern_name {
+    height: 90vh;
+    display:flex;
+    flex-direction:row;
+    margin-bottom: 5px;
+}
+.tavern_buttons {
+    display:flex;
+    flex-direction:column;
+    border-top: 2px black solid;
+    border-bottom: 2px black solid;
+    min-height: 100%;
+    width: 30%;
+    align-items: center;
+    justify-content: center;
+}
+.tavern_button {
+    display: block;
+    margin-bottom: 10px;
+    background-color: gray;
+    border-radius: 7px;
+    height: 15%;
+    min-width: 100%;
+    font-size: 15;
+}
+.tavern_sign {
+    border: 2px black solid;
+    float: left;
+    display:flex;
+    height: 100%;
+    width: 85%;
+    align-items: center;
+    justify-content: center;
+}
+a:link, a:visited {
+    background-color: #f44336;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    border-radius: 5px;
+    margin: 5px;
+  }
+a:hover {
+    background-color: red;
+  }
+
+#navigate {
+    display:flex;
+    height: 90vh;
+    flex-direction:column;
+    float: right;
+    background-color: blueviolet;
+    border: 2px black solid;
+    
+}
